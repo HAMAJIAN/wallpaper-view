@@ -1,0 +1,9 @@
+# 统一换行符，避免 Windows / macOS 之间来回改动
+* text=auto eol=lf
+
+# Windows 批处理用 CRLF 更稳妥
+*.cmd text eol=crlf
+
+# 二进制资源
+*.ico binary
+*.png binary
