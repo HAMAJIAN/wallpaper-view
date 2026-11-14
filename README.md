@@ -2,7 +2,7 @@
 
 打开后整块屏幕只留壁纸，动一下鼠标就结束鉴赏，后台进程不会没 能放音乐 用着不烧心。
 
-它做的：找到 `wallpaper_engine\bin\wpxscreensaver64.scr`，给它 `/s` 参数跑起来。不装驱动、不改注册表、不动系统设置，退出后什么都不留。
+它做的：找到 wallpaper_engine\bin\wpxscreensaver64.scr，然后/s 参数跑起来。不动驱动、注册表、系统设置，退出后什么都不留恢复原样。
 
 ## 安装
 
@@ -25,7 +25,7 @@
 Install.cmd -NoHotkey
 ```
 
-## 一个坑
+## 注意
 
 进去之后一片黑，不是工具坏了：当前这张壁纸是「应用程序」类型时，屏保拿不到它。这是 Wallpaper Engine 自己的限制，换一张场景 / 视频 / 网页壁纸就行，或者在壁纸引擎里「配置屏幕保护程序 → 单独配置」，单独指定一张给屏保用。
 
@@ -33,7 +33,7 @@ Install.cmd -NoHotkey
 
 ## 不想要了
 
-双击 `Uninstall.cmd` 删掉快捷方式。想清得干净点，再把 `%LOCALAPPDATA%\WallpaperView\` 删掉——里面只有一个日志和一个图标。
+双击 `Uninstall.cmd` 删掉快捷方式。想清得干净点，再把 `%LOCALAPPDATA%\WallpaperView\` 删掉，里面只有一个日志和一个图标。删掉也不烧心。
 
 ## 许可
 
