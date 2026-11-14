@@ -1,17 +1,15 @@
 # 壁纸鉴赏
 
-Wallpaper Engine 里那个屏保，其实就是现成的「壁纸鉴赏模式」：整块屏幕只剩壁纸，任务栏、桌面图标、别的窗口全都不见了，动一下鼠标就回来。
+打开后整块屏幕只留壁纸，动一下鼠标就结束鉴赏，后台进程不会没 能放音乐 用着不烧心。
 
-问题是它躲在 Windows 屏保设置里，默认要等十分钟无操作才出现。我就想随手看两眼壁纸，等不起。于是写了这个按钮——点一下立刻进，动一下鼠标立刻出。
+它做的：找到 `wallpaper_engine\bin\wpxscreensaver64.scr`，给它 `/s` 参数跑起来。不装驱动、不改注册表、不动系统设置，退出后什么都不留。
 
-它做的事很土：找到 `wallpaper_engine\bin\wpxscreensaver64.scr`，给它 `/s` 参数跑起来。不装驱动、不改注册表、不动系统设置，退出后什么都不留。
+## 安装
 
-## 怎么装
-
-1. 去 [Releases](https://github.com/HAMAJIAN/wallpaper-view/releases) 下最新的 zip
-2. 解压到一个文件夹里（别在压缩包里直接双击）
+1. 去 [Releases](https://github.com/HAMAJIAN/wallpaper-view/releases) 下载我发布的最新的 zip文件
+2. 解压到文件夹里（别在压缩包里直接双击！）
 3. 双击 `Install.cmd`
-4. 桌面上会多出一个「壁纸鉴赏」图标
+4. 桌面上会多出一个叫「壁纸鉴赏」图标
 
 要 Windows 10/11，加一个已经装好的 Wallpaper Engine。别的什么都不用装。
 
