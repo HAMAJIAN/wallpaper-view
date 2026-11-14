@@ -8,7 +8,7 @@ Wallpaper Engine 里那个屏保，其实就是现成的「壁纸鉴赏模式」
 
 ## 怎么装
 
-1. 去 [Releases](https://github.com/HAMAJIAN/bizhi-jianshang/releases) 下最新的 zip
+1. 去 [Releases](https://github.com/HAMAJIAN/wallpaper-view/releases) 下最新的 zip
 2. 解压到一个文件夹里（别在压缩包里直接双击）
 3. 双击 `Install.cmd`
 4. 桌面上会多出一个「壁纸鉴赏」图标
